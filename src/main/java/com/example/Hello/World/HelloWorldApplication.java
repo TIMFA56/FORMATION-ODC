@@ -6,7 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class HelloWorldApplication implements CommandLineRunner 	{
-
+public static void direBonjour() {
+		System.out.println("Bonjour, le monde!");
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
